@@ -20,10 +20,10 @@
 
 1. Which of the following commands will "stage" every modified file as well as every one of the untracked files too?
 
-   - [-] git add -u
-   - [-] git commit .
-   - [-] git add -A
-   - [-] git commit -am "trololol"
+   - [*] git add -u
+   - [*] git commit .
+   - [*] git add -A
+   - [*] git commit -am "trololol"
 
 2. Given a smattering of modified files have been staged, how would you "unstage" all of the files in the `docs/` folder?
 
@@ -106,10 +106,10 @@ Changes not staged for commit:
 
 1. For the above output, if I were to run the command `git checkout .` which of the following would happen?
 
-   - [-] The 3 unstaged files and the 2 staged files would have all their changes undone.
-   - [-] Nothing would happen because none of those files are untracked.
-   - [-] The 3 unstaged files will have all their changes undone, the 2 staged files will be left untouched.
-   - [-] The 3 unstaged files will be now be flagged as 'untracked'
+   - [*] The 3 unstaged files and the 2 staged files would have all their changes undone.
+   - [*] Nothing would happen because none of those files are untracked.
+   - [*] The 3 unstaged files will have all their changes undone, the 2 staged files will be left untouched.
+   - [*] The 3 unstaged files will be now be flagged as 'untracked'
 
 2. For the above output, if I were to run the command `git reset .` which of the following would happen?
 
