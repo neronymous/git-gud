@@ -1,0 +1,31 @@
+[user]
+  name = Fin Stoddart
+
+[core]
+  editor = code -w -r
+
+[diff]
+  tool = vscode
+
+[merge]
+  tool = vscode
+
+[difftool "vscode"]
+  cmd = code -w --diff $LOCAL $REMOTE
+
+[mergetool "vscode"]
+  cmd = code -w $MERGED
+  keepBackup = false
+
+# [alias]
+#   a = add
+#   aa = add -A
+#   co = checkout
+#   st = status
+#   blist = branch --list
+#   pr = pull --rebase
+#   cp = cherry-pick
+#   sdiff = diff --staged
+#   c = commit
+#   ca = commit --amend
+#   l = log
