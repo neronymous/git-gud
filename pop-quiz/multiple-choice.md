@@ -117,3 +117,13 @@ Changes not staged for commit:
    - [_] Nothing would happen because none of those files are untracked.
    - [_] The 3 unstaged files will have all their changes undone, the 2 staged files will be left untouched.
    - [_] The 2 staged files will now show as unstaged meaning that all 5 files will be flagged as unstaged.
+
+
+**Part D**
+
+1. Which of the following are Marc's favourite bands?
+
+   - [_] slipknot
+   - [_] billie eilish
+   - [_] cannibal corpse
+   - [_] all of the above
